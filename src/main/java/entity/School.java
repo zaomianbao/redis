@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class School implements Serializable{
 	/**
-	 * 
+	 * 序列化id
 	 */
 	private static final long serialVersionUID = -1466028457288827166L;
 	private Long id;
