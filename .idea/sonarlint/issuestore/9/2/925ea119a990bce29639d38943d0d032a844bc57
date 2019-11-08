@@ -1,93 +1,0 @@
-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(·Îêëşÿÿÿÿ8•´§Í’-
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(ï¦å8•´§Í’-
-bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ßêúÿÿÿÿ8•´§Í’-
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(œª½$8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(¶é³ã8•´§Í’-
-Csquid:S1604"(Make this anonymous inner class a lambda(Ì‹ l8•´§Í’-
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¢Ì±û8•´§Í’-
-bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(˜Û«Çüÿÿÿÿ8•´§Í’-
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8•´§Í’-
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(ˆâÑL8•´§Í’-
-Zsquid:S3878"9Disambiguate this call by either casting as "V" or "V[]".(Ï¬¹ùûÿÿÿÿ8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Úã¤âşÿÿÿÿ8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(¦ê«Í8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(õÜåùÿÿÿÿ8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(˜Û«Çüÿÿÿÿ8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(˜Û«Çüÿÿÿÿ8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(¨®Ôü8•´§Í’-
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(½×ñêûÿÿÿÿ8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Í°şÿÿÿÿ8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(¸Ã€8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(«éèÿşÿÿÿÿ8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(”Öˆé8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(¶µ‰£ûÿÿÿÿ8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(†¬ñà8•´§Í’-
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÉĞ²¦úÿÿÿÿ8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(˜ªÕö8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÀÏí8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(è®Ö8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ßáè8•´§Í’-
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÿà¾e8•´§Í’-
-zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚÚíÛøÿÿÿÿ8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ğ°ì´úÿÿÿÿ8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ÿ“¤şÿÿÿÿ8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(à‡‚¤øÿÿÿÿ8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ãûŸ¶şÿÿÿÿ8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(‡¼¯õùÿÿÿÿ8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(òáñÇ8•´§Í’-
-Isquid:S1604"(Make this anonymous inner class a lambda(äë¬±üÿÿÿÿ8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(û˜¹Ì8•´§Í’-
-bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(«ç’øÿÿÿÿ8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(™öô…8•´§Í’-
-zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚÚíÛøÿÿÿÿ8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÈÓœ´8•´§Í’-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(·Îêëşÿÿÿÿ8•´§Í’-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(¶è˜£8•´§Í’-

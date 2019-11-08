@@ -30,3 +30,4 @@ target/
 *.iml
 
 logs/
+.DS_Store
