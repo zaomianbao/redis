@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
-
+import entity.Person;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -71,6 +71,22 @@ public class ZSetDemo {
 		System.out.println(redisTemplate.keys("fan3"));//[]
 		System.out.println(opsForZSet.incrementScore("fan3", "a", -1));//-1.0(可见默认技术为0)
 		System.out.println(redisTemplate.keys("fan3"));//[fan3]
+
+		redisTemplate.delete("object");
+		opsForZSet.incrementScore("object", Person.builder().personId(1L).nickName("刘一").build(), 1);
+		opsForZSet.incrementScore("object", Person.builder().personId(1L).nickName("刘一").build(), 3);
+		opsForZSet.incrementScore("object", Person.builder().personId(1L).nickName("刘一").build(), 3);
+		//从开始(start)到结束(end)，从排序从高到低的排序集中获取元组的集合（这个方法下面有介绍到）
+		Set<TypedTuple<Object>> reverseRangeWithScores = opsForZSet.reverseRangeWithScores("object", 0, -1);
+		Iterator<TypedTuple<Object>> iterator = reverseRangeWithScores.iterator();
+		while(iterator.hasNext()){
+			TypedTuple<Object> next = iterator.next();
+			Person info = (Person) next.getValue();
+			System.out.println("value:"+ info +" score:"+next.getScore());
+			/*
+				value:RedPacketPersonInfo(personId=1, nickName=刘一) score:7.0
+			 */
+		}
 	}
 	
 	@Test
@@ -217,7 +233,7 @@ public class ZSetDemo {
 				value:d score:-1.0
 			 */
 		}
-		
+
 	}
 	
 	@Test
